@@ -143,3 +143,6 @@ Jika folder hasil ekstrak belum memiliki Git, jalankan `git init` sebelum `git a
 ## Lisensi
 
 Lisensi proyek belum ditentukan. Tambahkan file `LICENSE` jika ingin menetapkan izin penggunaan dan distribusi kode.
+
+## APLIKASI DEMO 
+<img width="591" height="1280" alt="TICTACTOE" src="https://github.com/user-attachments/assets/1b3689d0-a4bf-449a-bec2-08ba49234f3d" />
