@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Ardiyanti - Tic Tac Toe",
+    "slug": "ardiyanti-tictactoe",
+    "version": "1.0.0",
+    "description": "Permainan Tic Tac Toe dua pemain untuk Android dan iOS.",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "ardiyanti-tictactoe",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#10131B",
+    "primaryColor": "#5EEAD4",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#10131B",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#10131B",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 132
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
